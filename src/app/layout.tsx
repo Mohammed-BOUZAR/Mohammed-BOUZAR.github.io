@@ -15,7 +15,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="dark">
+      <head>
+        <link rel="icon" href="/logo.svg" sizes="any" />
+      </head>
       <body className={inter.className}>
         {children}
       </body>

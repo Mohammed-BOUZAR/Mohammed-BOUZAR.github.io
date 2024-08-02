@@ -9,7 +9,7 @@ function Hero() {
 
 	return (
 		<div className="pb-20 h-screen w-full">
-			<div className="h-screen w-full rounded-md flex md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] absolute overflow-hidden">
+			<div className="h-screen w-full rounded-md flex md:items-center md:justify-center dark:bg-black/[0.96] antialiased bg-grid-white/[0.02] absolute overflow-hidden">
 				<Spotlight
 					className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
 					fill="white"
@@ -23,13 +23,13 @@ function Hero() {
 
 			<div className="h-screen flex flex-col justify-center items-center relative z-10 px-20">
 				<div className="flex flex-col items-center justify-center gap-4">
-					<p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
+					<p className="uppercase tracking-widest text-xs text-center dark:text-blue-100 light:text-black max-w-80">
 						Dynamic Web Magic
 					</p>
 
-					<TypewriterEffect words={heroWords} className="text-center sm:text-2 xl md:text-6xl lg:text-6xl md:px-16" />
+					<TypewriterEffect words={heroWords} className="text-center sm:text-2 xl md:text-6xl lg:text-6xl md:px-16 text-black dark:text-white" />
 
-					<p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
+					<p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl dark:text-white">
 						Hi! I&apos;m Mohammed, a Full-Stack Developer, Specializing in Web & Mobile Technologies and Passionate About Building Innovative Digital Solutions
 					</p>
 				</div>

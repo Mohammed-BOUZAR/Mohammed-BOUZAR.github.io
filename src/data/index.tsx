@@ -54,7 +54,7 @@ export const projects = [
 		title: "Foodeals - Anti-waste app in Africa and the Middle East",
 		description: "Cheap, waste free and eco-friendly, Foodeals will turn you into food heroes!",
 		image: "/projects/foodeals.svg",
-		iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/fm.svg"],
+		iconLists: ["/technologies/next.svg", "/technologies/tailwind.svg", "/typescript.svg", "/technologies/git.svg"],
 		link: "https://foodeals.net",
 	},
 	{
@@ -62,7 +62,7 @@ export const projects = [
 		title: "Egonix Digital Profile - Your Online Business Card Revolution",
 		description: "Say goodbye to traditional paper business cards! With Egonix, elevate your professional presence into the digital age. Our digital profile is not just an online version of your business card; it's a versatile networking tool designed to enhance your brand image and streamline your connections.",
 		image: "/projects/egonix.svg",
-		iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+		iconLists: ["/technologies/next.svg", "/technologies/tailwind.svg", "/typescript.svg", "/technologies/git.svg"],
 		link: "https://egonixcards.com/",
 	},
 	{
@@ -70,32 +70,45 @@ export const projects = [
 		title: "Tic Tac Toe - Mobile Gaming",
 		description: "Step into the world of fast-paced fun with Tic Tac Toe, the most exciting mobile adaptation of the classic game. This app takes the timeless strategy of tic-tac-toe and transforms it into a dynamic, engaging experience perfect for players of all ages.",
 		image: "/projects/tictactoe.svg",
-		iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+		iconLists: ["/technologies/next.svg", "/technologies/tailwind.svg", "/typescript.svg", "/technologies/git.svg"],
 		link: "https://egonixcards.com/",
 	},
 ];
 
 export const experiences = [
 	{
-		title: "August 2022",
-		cardTitle: "Polytechnic School of Engineering - Fez | IT services agency",
-		url: "http://epg.ma",
-		cardSubtitle: "Internship",
-		cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
-	},
-	{
-		title: "April 2023 - June 2023",
-		cardTitle: "Foodeals | End of study internship",
-		url: "http://foodeals.net",
-		cardSubtitle: "End of study internship",
-		cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
-	},
-	{
-		title: "June 2023 - March 2024",
+		icon: "",
 		cardTitle: "Foodeals | Employee",
-		url: "http://foodeals.net",
+		date: "From June 2023",
 		cardSubtitle: "End of study internship",
-		cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
+		cardDetailedText: `
+		Role: Web & Mobile Developer
+		Responsibilities: Lead the design and implementation of new features across web and mobile platforms, conduct performance optimization, ensure code quality through rigorous testing, and collaborate closely with cross-functional teams.
+		Outcome: Contribute significantly to the company's technological advancement, enhance user satisfaction through high-quality, intuitive interfaces, and grow professionally by tackling complex challenges and learning new technologies.
+		`,
+		url: "http://foodeals.net",
+	},
+	{
+		icon: "",
+		cardTitle: "Food Waste Reduction Intern | End of study internship",
+		date: "April 2023 - June 2023",
+		cardSubtitle: "End of study internship",
+		cardDetailedText: `
+		Objective: Gain hands-on experience in developing web and mobile applications, focusing on enhancing user experience through innovative solutions.
+		Responsibilities: Assist in designing and implementing features for both web and mobile platforms, participate in code reviews, and contribute to project documentation.
+		Outcome: Develop a solid foundation in software development practices, learn to work collaboratively within a team, and apply theoretical knowledge to real-world projects.
+		`,
+		url: "http://foodeals.net",
+	},
+	{
+		icon: "",
+		cardTitle: "Polytechnic School of Engineering - Fez | IT services agency",
+		date: "August 2022",
+		cardSubtitle: "Internship",
+		cardDetailedText: `
+		Embark on a transformative journey at École Polytechnique de Technologies, where innovation meets excellence. As a developer intern, you'll dive deep into cutting-edge technology projects, collaborating with a team of talented professionals. This one-month intensive program offers unparalleled exposure to advanced technologies and methodologies, fostering your growth and preparing you for the future of tech. Join us to contribute to groundbreaking projects and enhance your skills in a dynamic environment.
+		`,
+		url: "http://epg.ma",
 	},
 ];
 

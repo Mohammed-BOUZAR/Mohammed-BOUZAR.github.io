@@ -25,12 +25,12 @@ function About() {
 	return (
 		<div id="about" className="w-full">
 
-			<div className="w-full dark:bg-black bg-white  dark:bg-dot-white/[0.2] bg-dot-black/[0.2] relative flex flex-col items-center justify-center">
+			<div className="w-full pt-20 dark:bg-black dark:bg-dot-white/[0.2] bg-dot-black/[0.2] relative flex flex-col items-center justify-center">
 				{/* Radial gradient for the container to give a faded look */}
 				<div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
 				<TitleSection title="About Me" className="relative z-50" />
 				<CardContainer className="w-full flex flex-col gap-4 px-16 py-1">
-					<CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-full h-auto rounded-xl p-6 border flex items-center gap-3 px-16">
+					<CardBody className="bg-neutral-100 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-full h-auto rounded-xl p-6 border flex items-center gap-3 px-16">
 						<CardItem
 							as="p"
 							translateZ="100"
@@ -40,7 +40,7 @@ function About() {
 						</CardItem>
 					</CardBody>
 					<div className="flex gap-4 w-full sm:flex-col">
-						<CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-full h-auto rounded-xl p-6 border flex items-center gap-3">
+						<CardBody className="bg-neutral-100 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-full h-auto rounded-xl p-6 border flex items-center gap-3">
 							<CardItem
 								as="p"
 								translateZ="100"
@@ -49,7 +49,7 @@ function About() {
 								I continuously seek to improve my skills and stay updated with the latest industry trends, including studying artificial intelligence to enhance my development processes. My commitment to excellence and detail-oriented approach allows me to deliver high-quality, efficient, and user-friendly solutions.
 							</CardItem>
 						</CardBody>
-						<CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-full h-auto rounded-xl p-6 border flex items-center gap-3">
+						<CardBody className="bg-neutral-100 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-full h-auto rounded-xl p-6 border flex items-center gap-3">
 							<CardItem
 								as="p"
 								translateZ="100"
@@ -77,7 +77,7 @@ function About() {
 				>
 					<TitleSection title="About Me" />
 					<CardContainer className="w-full flex flex-col gap-4 px-16 py-1">
-						<CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-full h-auto rounded-xl p-6 border flex items-center gap-3 px-16">
+						<CardBody className="bg-neutral-100 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-full h-auto rounded-xl p-6 border flex items-center gap-3 px-16">
 							<CardItem
 								as="p"
 								translateZ="100"
@@ -89,7 +89,7 @@ function About() {
 							</CardItem>
 						</CardBody>
 						<div className="flex gap-4 w-full">
-							<CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] sm:w-full h-auto rounded-xl p-6 border flex items-center gap-3">
+							<CardBody className="bg-neutral-100 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] sm:w-full h-auto rounded-xl p-6 border flex items-center gap-3">
 								<CardItem
 									as="p"
 									translateZ="100"
@@ -100,7 +100,7 @@ function About() {
 									I continuously seek to improve my skills and stay updated with the latest industry trends, including studying artificial intelligence to enhance my development processes. My commitment to excellence and detail-oriented approach allows me to deliver high-quality, efficient, and user-friendly solutions.
 								</CardItem>
 							</CardBody>
-							<CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] sm:w-full h-auto rounded-xl p-6 border flex items-center gap-3">
+							<CardBody className="bg-neutral-100 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] sm:w-full h-auto rounded-xl p-6 border flex items-center gap-3">
 								<CardItem
 									as="p"
 									translateZ="100"

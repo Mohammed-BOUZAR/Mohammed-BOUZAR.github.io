@@ -6,7 +6,7 @@ import Img from "next/image";
 
 function Projects() {
 	return (
-		<div className="sm:p-0">
+		<div className="pt-20">
 			<TitleSection id="projects" title="Projects" />
 			<div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
 				{projects.map((item) => (
@@ -26,14 +26,13 @@ function Projects() {
 								/>
 							</div>
 
-							<h1 className="font-bold lg:text-xl md:text-lg text-base line-clamp-1">
+							<h1 className="font-bold lg:text-xl md:text-lg text-base line-clamp-1 dark:text-white text-black">
 								{item.title}
 							</h1>
 
 							<p
-								className="lg:text-lg lg:font-normal font-light text-sm line-clamp-2"
+								className="lg:text-lg lg:font-normal font-light text-sm line-clamp-2 dark:text-[#BEC1DD] text-[#646464]"
 								style={{
-									color: "#BEC1DD",
 									margin: "1vh 0",
 								}}
 							>

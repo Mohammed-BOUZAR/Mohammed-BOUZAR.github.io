@@ -8,6 +8,8 @@ import {
 } from "framer-motion";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
+import { ThemeSwitcher } from "../ThemeSwitcher";
+import { DarkThemeToggle } from "flowbite-react";
 
 export const FloatingNav = ({
 	navItems,
@@ -76,6 +78,7 @@ export const FloatingNav = ({
 					<span>Login</span>
 					<span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-blue-500 to-transparent  h-px" />
 				</button> */}
+				<DarkThemeToggle />
 			</motion.div>
 		</AnimatePresence>
 	);

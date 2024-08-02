@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="w-full px-20">
+    <footer id="contact" className="w-full px-20">
       {/* background grid */}
       <div className="w-full absolute left-0 -bottom-72 min-h-96">
         <Image
@@ -27,7 +27,7 @@ const Footer = () => {
           Ready to take Your digital
           presence to the next level?
         </h1> */}
-        <p className="lg:text-lg lg:font-normal font-light text-sm text-[#BEC1DD]">
+        <p className="lg:text-lg lg:font-normal font-light text-sm dark:text-[#BEC1DD] text-black">
           Reach out to me today and let&apos;s discuss how I can help you
           achieve your goals.
         </p>
@@ -40,7 +40,7 @@ const Footer = () => {
         </a>
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
-        <p className="md:text-base text-sm md:font-normal font-light">
+        <p className="md:text-base text-sm md:font-normal font-light dark:text-white text-black">
           Copyright © 2024 Mohammed Bouzar
         </p>
 
@@ -48,7 +48,7 @@ const Footer = () => {
           {socialMedia.map((info) => (
             <div
               key={info.id}
-              className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
+              className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-slate-950  rounded-lg border border-slate-950"
             >
               <Link href={info.url}>
                 <Image src={info.image} alt="icons" width={20} height={20} />
