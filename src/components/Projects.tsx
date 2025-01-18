@@ -9,14 +9,15 @@ function Projects() {
 		<div className="pt-20">
 			<TitleSection id="projects" title="Projects" />
 			<div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
-				{projects.map((item) => (
+				{projects.map((item, idx) => (
 					<div
 						className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
-						key={item.id}
+						key={idx}
 					>
 						<PinContainer
 							title={item.title}
 							href={item.link}
+							target="_blank"
 						>
 							<div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
 								<Img width={1000} height={1000}
@@ -44,7 +45,7 @@ function Projects() {
 									{item.iconLists.map((icon, index) => (
 										<div
 											key={index}
-											className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
+											className="border border-black dark:border-white/[.2] bg-[#eee] rounded-full dark:bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
 											style={{
 												transform: `translateX(-${5 * index + 2}px)`,
 											}}
@@ -54,12 +55,12 @@ function Projects() {
 									))}
 								</div>
 
-								<div className="flex justify-center items-center">
-									<p className="flex lg:text-xl md:text-xs text-sm text-purple">
+								{/* <div className="flex justify-center items-center">
+									<p className="flex text-sm text-purple dark:text-white">
 										Check Live Site
 									</p>
-									<FaLocationArrow className="ms-3" color="#CBACF9" />
-								</div>
+									<FaLocationArrow className="mx-3 dark:text-[#eee]" width={100} height={100} />
+								</div> */}
 							</div>
 						</PinContainer>
 					</div>

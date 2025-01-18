@@ -30,7 +30,7 @@ function About() {
 				<div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
 				<TitleSection title="About Me" className="relative z-50" />
 				<CardContainer className="w-full flex flex-col gap-4 px-16 py-1">
-					<CardBody className="bg-neutral-100 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-full h-auto rounded-xl p-6 border flex items-center gap-3 px-16">
+					<CardBody className="bg-neutral-100 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-full h-auto rounded-xl p-6 border flex items-center gap-3">
 						<CardItem
 							as="p"
 							translateZ="100"

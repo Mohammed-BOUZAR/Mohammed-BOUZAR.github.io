@@ -50,41 +50,64 @@ export const heroWords = [
 
 export const projects = [
 	{
-		id: 1,
-		title: "Foodeals - Anti-waste app in Africa and the Middle East",
-		description: "Cheap, waste free and eco-friendly, Foodeals will turn you into food heroes!",
-		image: "/projects/foodeals.svg",
-		iconLists: ["/technologies/next.svg", "/technologies/tailwind.svg", "/typescript.svg", "/technologies/git.svg"],
-		link: "https://foodeals.net",
-	},
+    title: "Foodeals Main Website",
+    description: "The central hub for Foodeals, connecting users to various applications and services.",
+    image: "/projects/foodeals.svg",
+    iconLists: ["/technologies/laravel.svg", "/technologies/mysql.svg", "/technologies/git.svg", "/technologies/bootstrap.svg", "/technologies/javascript.svg", "/technologies/figma.svg", "/technologies/asana.svg"],
+    link: "http://foodeals.net",
+  },
 	{
-		id: 2,
+    title: "Foodeals Pro Donate",
+    description: "A donation-focused web and mobile application aimed at supporting causes through food donations.",
+    image: "/projects/foodeals-pro-donate.svg",
+    iconLists: ["/technologies/flutter.svg", "/technologies/sqlite.svg", "/technologies/laravel.svg", "/technologies/mysql.svg", "/technologies/git.svg", "/technologies/bootstrap.svg", "/technologies/javascript.svg", "/technologies/firebase.svg", "/technologies/figma.svg", "/technologies/asana.svg"],
+    link: "https://pro-donate.foodeals.net",
+  },
+  {
+    title: "Foodeals Pro",
+    description: "The core web and mobile application for Foodeals, featuring a marketplace for discounted food items.",
+    image: "/projects/foodeals-pro.svg",
+		iconLists: ["/technologies/flutter.svg", "/technologies/sqlite.svg", "/technologies/laravel.svg", "/technologies/mysql.svg", "/technologies/git.svg", "/technologies/bootstrap.svg", "/technologies/javascript.svg", "/technologies/firebase.svg", "/technologies/figma.svg", "/technologies/asana.svg"],
+    link: "https://pro-market.foodeals.net",
+  },
+  {
+    title: "Foodeals Ecommerce",
+    description: "An online shopping platform integrating food deals, with a focus on eco-friendly and cost-effective purchases.",
+    image: "/projects/foodeals-ecommerce.svg",
+		iconLists: ["/technologies/flutter.svg", "/technologies/sqlite.svg", "/technologies/laravel.svg", "/technologies/mysql.svg", "/technologies/git.svg", "/technologies/bootstrap.svg", "/technologies/javascript.svg", "/technologies/firebase.svg", "/technologies/figma.svg", "/technologies/asana.svg"],
+    link: "https://foodeals.ma",
+  },
+  {
+    title: "Foodeals DLC",
+    description: "A new mobile application designed to offer exclusive deals and loyalty programs to Foodeals users.",
+    image: "/projects/foodeals-dlc.svg",
+    iconLists: ["/technologies/flutter.svg", "/technologies/sqlite.svg", "/technologies/laravel.svg", "/technologies/mysql.svg", "/technologies/git.svg", "/technologies/firebase.svg", "/technologies/figma.svg", "/technologies/asana.svg"],
+    link: "#",
+  },
+	{
 		title: "Egonix Digital Profile - Your Online Business Card Revolution",
 		description: "Say goodbye to traditional paper business cards! With Egonix, elevate your professional presence into the digital age. Our digital profile is not just an online version of your business card; it's a versatile networking tool designed to enhance your brand image and streamline your connections.",
 		image: "/projects/egonix.svg",
-		iconLists: ["/technologies/next.svg", "/technologies/tailwind.svg", "/typescript.svg", "/technologies/git.svg"],
+		iconLists: ["/technologies/laravel.svg", "/technologies/bootstrap.svg", "/technologies/javascript.svg", "/technologies/stripe.svg", "/technologies/git.svg", "/technologies/trello.svg"],
 		link: "https://egonixcards.com/",
 	},
 	{
-		id: 3,
 		title: "Tic Tac Toe - Mobile Gaming",
 		description: "Step into the world of fast-paced fun with Tic Tac Toe, the most exciting mobile adaptation of the classic game. This app takes the timeless strategy of tic-tac-toe and transforms it into a dynamic, engaging experience perfect for players of all ages.",
 		image: "/projects/tictactoe.svg",
-		iconLists: ["/technologies/next.svg", "/technologies/tailwind.svg", "/typescript.svg", "/technologies/git.svg"],
-		link: "https://egonixcards.com/",
+		iconLists: ["/technologies/flutter.svg", "/technologies/google-play.svg", "/technologies/git.svg"],
+		link: "#",
 	},
 ];
 
 export const experiences = [
 	{
-		icon: "",
+		icon: "/technologies/foodeals.svg",
 		cardTitle: "Foodeals | Employee",
 		date: "From June 2023",
 		cardSubtitle: "End of study internship",
 		cardDetailedText: `
-		Role: Web & Mobile Developer
-		Responsibilities: Lead the design and implementation of new features across web and mobile platforms, conduct performance optimization, ensure code quality through rigorous testing, and collaborate closely with cross-functional teams.
-		Outcome: Contribute significantly to the company's technological advancement, enhance user satisfaction through high-quality, intuitive interfaces, and grow professionally by tackling complex challenges and learning new technologies.
+		As a seasoned web and mobile developer, I have had the privilege of contributing significantly to Foodeals' digital ecosystem. My role encompassed the development, enhancement, and maintenance of multiple web and mobile applications, including Foodeals Pro Donate, Foodeals Pro, and Foodeals Ecommerce, alongside the creation of a new mobile application, Foodeals DLC. My expertise was further demonstrated through the conception and execution of a responsive website, leveraging cutting-edge technologies such as Laravel, Bootstrap, JavaScript, Flutter, Firebase, Google Maps, Payment Gateway, and MySQL. This project not only showcased my proficiency in creating visually appealing and functional web interfaces but also my ability to deploy solutions that are optimized for various device sizes and resolutions. My work extends beyond coding; I actively participated in designing the backend architecture and database systems, ensuring scalability and performance. Additionally, I tackled complex challenges, such as resolving payment gateway issues within the Foodeals Ecommerce platform, thereby enhancing security and user trust. My contributions have been instrumental in Foodeals' mission to combat food waste and promote sustainable consumption, reflecting my commitment to innovation and excellence in web and mobile development.
 		`,
 		url: "http://foodeals.net",
 	},
@@ -206,13 +229,11 @@ export const testimonials = [
 
 export const socialMedia = [
 	{
-		id: 1,
-		image: "/technologies/git.svg",
+		image: "/technologies/github-white.svg",
 		url: "https://github.com/mohammed-BOUZAR"
 	},
 	{
-		id: 2,
-		image: "/technologies/linkedin.svg",
+		image: "/technologies/linkedin-white.svg",
 		url: "https://linkedin.com/in/mohammedbouzar"
 	},
 ];
